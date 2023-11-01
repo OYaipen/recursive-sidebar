@@ -1,18 +1,40 @@
-# Vue 3 + TypeScript + Vite
+# Recursive Sidebar with Vue 3, TypeScript, and Tailwind CSS
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is an example of a recursive sidebar built with Vue 3, TypeScript, and styled with Tailwind CSS. The goal of this project is to demonstrate how to create a nested and flexible navigation menu that adapts to various design needs.
 
-## Recommended IDE Setup
+## Prerequisites
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Before getting started, make sure you have the following installed in your development environment:
 
-## Type Support For `.vue` Imports in TS
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Installation
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. Clone this repository to your local machine:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```bash
+git clone https://github.com/OYaipen/recursive-sidebar.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd recursive-sidebar
+```
+
+3. Install the dependencies using Yarn:
+
+```bash
+yarn install
+```
+
+## Usage
+
+Once you have installed the dependencies, you can run the example application with the following command:
+
+```bash
+yarn dev
+```
+
+This will start a development server, and you can access the application in your browser.
